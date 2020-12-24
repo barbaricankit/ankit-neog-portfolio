@@ -3,9 +3,8 @@
 :root{
     --primary-color:#34D399;
     --dark-gray:#6B7280;
-    --off-white:#F3F4F6;
-   --asasa: #9df0d1de;
-   --asasaq:rgba(108, 177, 151, 0.363);
+   --off-white: #9df0d1de;
+   --white:rgba(108, 177, 151, 0.363);
 }
 
 body{
@@ -106,10 +105,10 @@ text-align: right;
 }
 .ow{
 
-    background-color: var(--asasa);
+    background-color: var(--off-white);
 }
 .w{
-    background-color: var(--asasaq);
+    background-color: var(--white);
 }
 /**footer**/
 
