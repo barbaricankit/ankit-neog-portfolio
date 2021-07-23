@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
 
 :root{
-    --primary-color:#34D399;
+    --primary-color:linear-gradient(to right, rgb(33, 147, 176), rgb(109, 213, 237));
+    --secondary-color:rgb(33, 147, 176);
     --dark-gray:#6B7280;
-   --off-white: #9df0d1de;
-   --white:rgba(108, 177, 151, 0.363);
+   --off-white: rgb(28 120 144);
+   --white:rgb(139 227 247);
 }
 
 body{
 font-family: 'Source Sans Pro', sans-serif;
 margin:0px;
 }
-
+.details{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
 hr{
     margin: 2.5rem 0;
 }
@@ -25,13 +29,13 @@ hr{
     
 }
 .link-primary{
-    background-color:var(--primary-color);
+    background:var(--primary-color);
     border-radius: 00.5rem;
     color:white;
     font-weight: bold;
 }
 .link-secondary{
-    color:var(--primary-color);
+    color:var(--secondary-color);
     border-radius: 00.5rem;
     border:1px solid var(--primary-color);
     background-color: rgb(240, 231, 209);
@@ -46,7 +50,7 @@ hr{
 /**navigation**/
 .navigation{
     
-    background-color: var(--primary-color);
+    background: var(--primary-color);
     color:white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
@@ -61,14 +65,18 @@ hr{
     padding:0 0.5rem;
     
 }
-
+.nav-header{
+    font-size: larger;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .navigation .nav-pills{
 text-align: right;
 
 }
 .navigation .nav-brand{
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: x-large;
     }
     .link-active{
         font-weight: bold;
@@ -113,7 +121,7 @@ text-align: right;
 /**footer**/
 
 footer{
-    background-color: var(--primary-color);
+    background: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
     color:white;
